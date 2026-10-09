@@ -1,0 +1,169 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#6e7072;
+    display:flex;
+    justify-content:center;
+    padding: 0 35px ;
+}
+
+/* Resume */
+
+.resume{
+    width:1000px;
+    height: fit-content;
+    background:#c0bbcf;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+/* Header */
+
+header{
+    background:#2d73b9;
+    color:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:40px 60px;
+}
+
+.title h1{
+    font-size:45px;
+    line-height:50px;
+    font-weight:700;
+}
+
+.title p{
+    margin-top:10px;
+    font-size:18px;
+    font-weight:300;
+}
+
+.profile-img{
+    width:180px;
+    height:200px;
+    border-radius:50%;
+    border:8px solid #fff;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.2);
+}
+
+.profile-img img{
+    width:100%;
+    height:100%;
+    object-fit:fill;
+}
+
+/* Content */
+
+.container{
+    display:grid;
+    grid-template-columns:50% 50%;
+}
+
+.left,
+.right{
+    padding:40px;
+}
+
+/* Sections */
+
+section{
+    margin-bottom:35px;
+}
+
+section h2{
+    color:#2d73b9;
+    margin-bottom:18px;
+    border-bottom:3px solid #2d73b9;
+    display:inline-block;
+    padding-bottom:6px;
+    font-size:24px;
+}
+
+section p{
+    color:#555;
+    line-height:28px;
+    font-size:15px;
+}
+
+/* Box */
+
+.box{
+    margin-top:10px;
+}
+
+.box h3{
+    font-size:18px;
+    color:#222;
+    margin-bottom:5px;
+}
+
+.box span{
+    font-size:15px;
+    color:#555;
+}
+
+.box p{
+    margin-top:5px;
+    color:#555;
+    line-height:26px;
+}
+
+/* Contact */
+
+.contact p{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin:12px 0;
+    color:#555;
+}
+
+.contact img{
+    width:30px;
+    height:30px;
+    border-radius:25px;
+    object-fit:contain;
+}
+
+/* Links */
+
+.contact a,
+.box a{
+    text-decoration:none;
+    color:#2d73b9;
+}
+
+.contact a:hover,
+.box a:hover{
+    text-decoration:underline;
+}
+
+/* Skills */
+
+.right ul{
+    margin-top:10px;
+    margin-left:20px;
+}
+
+.right ul li{
+    margin-bottom:12px;
+    color:#555;
+    line-height:24px;
+}
+
+.left ul li{
+    margin-bottom:12px;
+    color:#555;
+    line-height:24px;
+    margin-left:30px;
+}
